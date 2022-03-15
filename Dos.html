@@ -15,7 +15,7 @@
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     }
     </script>
-    
+
     <script>
         function getParameterByName1( name ){
         name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
@@ -41,25 +41,25 @@
         <tr>
             <td>
                 <script>
-                    document.write(getParameterByName("Nombre"))
+                    document.write(getParameterByName1("Nombre"))
                 </script>
             </td>
 
             <td>
                 <script>
-                    document.write(getParameterByName("Apellido"))
+                    document.write(getParameterByName1("Apellido"))
                 </script>
             </td>
 
             <td>
                 <script>
-                    document.write(getParameterByName("Direccion"))
+                    document.write(getParameterByName1("Direccion"))
                 </script>
             </td>
 
             <td>
                 <script>
-                    document.write(getParameterByName("Telefono"))
+                    document.write(getParameterByName1("Telefono"))
                 </script>
             </td>
 
