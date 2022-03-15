@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        /**
+ * @param String name
+ * @return String
+ */
+    function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    </script>
+
+
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Direccion</td>
+            <td>Telefono</td>
+        </tr>
+
+        <tr>
+            <td>
+                <script>
+                    document.write(getParameterByName("Nombre"))
+                </script>
+            </td>
+
+            <td>
+                <script>
+                    document.write(getParameterByName("Apellido"))
+                </script>
+            </td>
+
+            <td>
+                <script>
+                    document.write(getParameterByName("Direccion"))
+                </script>
+            </td>
+
+            <td>
+                <script>
+                    document.write(getParameterByName("Telefono"))
+                </script>
+            </td>
+
+        </tr>
+
+    </table>
+</body>
+</html>
