@@ -16,18 +16,6 @@
     }
     </script>
 
-    <script>
-        function getParameterByName1( name ){
-        name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
-        var regexS = "[\\?&]"+name+"=([^&#]*)";
-        var regex = new RegExp( regexS );
-    var results = regex.exec( window.location.href );
-  if( results == null )
-    return "";
-  else
-    return decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-    </script>
 
 
     <table>
@@ -41,25 +29,25 @@
         <tr>
             <td>
                 <script>
-                    document.write(getParameterByName1("Nombre"))
+                    document.write(getParameterByName("Nombre"))
                 </script>
             </td>
 
             <td>
                 <script>
-                    document.write(getParameterByName1("Apellido"))
+                    document.write(getParameterByName("Apellido"))
                 </script>
             </td>
 
             <td>
                 <script>
-                    document.write(getParameterByName1("Direccion"))
+                    document.write(getParameterByName("Direccion"))
                 </script>
             </td>
 
             <td>
                 <script>
-                    document.write(getParameterByName1("Telefono"))
+                    document.write(getParameterByName("Telefono"))
                 </script>
             </td>
 
