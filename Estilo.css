@@ -13,7 +13,7 @@ table, th, td {
     width: 100%;
     border-collapse: collapse;
     text-align: left;    
-    color: black;
+    color: white;
   }
 
   tr:nth-child(even){background-color: #f2f2f2;}
