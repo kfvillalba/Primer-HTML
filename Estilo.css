@@ -1,26 +1,22 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-}
-table, th, td {
-    border: 1px solid;    
     border-collapse: collapse;
     width: 100%;
-    padding: 8px;    
   }
   
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: left;    
-    color: white;
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
   }
-  #customers th {
+  
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  tr:hover {background-color: #ddd;}
+  
+  th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #04AA6D;
     color: white;
   }
-
-  tr:nth-child(even){background-color: #f2f2f2;}
-  tr:hover {background-color: #ddd;}
