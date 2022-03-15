@@ -6,12 +6,12 @@ table, th, td {
     border-collapse: collapse;
     width: 100%;
     padding: 8px;
+    background-color: #04AA6D;
   }
   
   table {
     width: 100%;
     border-collapse: collapse;
-    text-align: left;
-    background-color: #04AA6D;
+    text-align: left;    
     color: black;
   }
