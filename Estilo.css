@@ -27,7 +27,7 @@
 
   }
 
-  #Div_Formulario{
+  #Div_Formulario, div{
     text-align: center;
     margin: auto;   
     background-color: aqua; 
