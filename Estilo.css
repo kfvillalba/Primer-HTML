@@ -28,8 +28,8 @@
 
   #Div_Formulario{
     text-align: center;
-    margin: auto;
-    
+    margin: auto;   
+    background-color: aqua; 
   }
 
   #Div_Container{
@@ -46,4 +46,7 @@
   h2{
     text-align: center;
     color: #ddd;
+  }
+  h3{
+    color: black;
   }
