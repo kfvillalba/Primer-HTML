@@ -34,9 +34,14 @@
   #Div_Container{
     width: fit-content;
     border: 1px solid #ddd;
+    padding: 10px 10px 10px;
   }
 
-  h1 , h2{
+  h1 {
     text-align: center;
     color: red;
+  }
+  h2{
+    text-align: center;
+    color: #ddd;
   }
