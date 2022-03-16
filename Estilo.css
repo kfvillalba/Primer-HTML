@@ -33,7 +33,7 @@
     background-color: aqua; 
   }
 
-  #Div_Container{
+  #Div_Container, .container{
     width: fit-content;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px 10px 10px;
@@ -47,10 +47,9 @@
 
   #Lorem{
     text-align: center;
-    color: #ddd;
-    text-justify: auto;
+    color: rgb(0, 0, 0);    
   }
-  
+
   h3{
     color: black;
   }
