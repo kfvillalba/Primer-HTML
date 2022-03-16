@@ -27,14 +27,13 @@
 
   }
   
-  .Formulario{
+  .Contenedor{
     width: fit-content;
     border: 1px solid rgb(0, 0, 0);
-    padding: 10px 10px 10px;   
-    
+    padding: 10px 10px 10px;       
   }
 
-  .Contenedor{
+  .Formulario{
     text-align: center;
     margin: auto;       
     display: flex;
