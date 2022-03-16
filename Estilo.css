@@ -19,3 +19,9 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  label{
+    width: 120px;
+    display: inline-block;
+    
+  }
