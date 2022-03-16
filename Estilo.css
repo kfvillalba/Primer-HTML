@@ -23,5 +23,20 @@
   label{
     width: 120px;
     display: inline-block;
+
+  }
+
+  #Div_Formulario{
+    text-align: center;
     
+  }
+
+  #Div_Container{
+    width: fit-content;
+    border: 1px solid #ddd;
+  }
+
+  h1 , h2{
+    text-align: center;
+    color: red;
   }
