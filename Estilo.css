@@ -27,17 +27,15 @@
 
   }
   
-  .container{
+  #Div_Formulario{
     width: fit-content;
     border: 1px solid rgb(0, 0, 0);
-    padding: 10px 10px 10px;
-    background-color: #04AA6D;
+    padding: 10px 10px 10px;    
   }
 
-  .Formulario{
+  #Div_Formulario_Container{
     text-align: center;
-    margin: auto;   
-    background-color: aqua; 
+    margin: auto;       
     display: flex;
     justify-content: center;
   }
