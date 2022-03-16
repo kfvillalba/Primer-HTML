@@ -27,13 +27,13 @@
 
   }
 
-  #Div_Formulario, div{
+  #Div_Formulario{
     text-align: center;
     margin: auto;   
     background-color: aqua; 
   }
 
-  #Div_Container, .container{
+  #Div_Container{
     width: fit-content;
     border: 1px solid rgb(0, 0, 0);
     padding: 10px 10px 10px;
