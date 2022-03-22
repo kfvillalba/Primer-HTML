@@ -63,4 +63,5 @@
   button:hover{
     background-color: beige;
     cursor: grab;
+    cursor: move;
   }
