@@ -1,4 +1,4 @@
-<!DOCTYPE ph>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +6,9 @@
     <link rel="stylesheet" href="Estilo.css">
 </head>
 <body>
-
-
     <table>
         <tr>
-            <th>Nombre</th>
+            //<th>Nombre</th>
             <th>Apellido</th>
             <th>Direccion</th>
             <th>Telefono</th>
